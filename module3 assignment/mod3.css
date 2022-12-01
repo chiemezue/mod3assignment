@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,400&family=Nunito:wght@300&display=swap');
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+}
+body{
+    background-color: rgb(255, 0, 255);
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+.navigator{
+    background-color: orange;
+}
+
+.nav-item{
+    text-align: center;
+}
+
+.navbar-toggler{
+    background-color: transparent;
+}
+.navbar-toggler:active,
+.button:active{
+    border: 0;
+}
+
+.Chicken{
+    background-color: rgb(245, 154, 69);
+}
+
+.navbar-brand{
+    font-weight:bold ;
+    font-size: 2rem;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+    background-color:rgb(255, 0, 255) ;
+}
